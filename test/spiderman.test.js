@@ -1,10 +1,12 @@
 /*
-	Requerimiento
-	Crea una clase spiderman que tenga como atributos los siguientes campos: 
+  Requerimiento
+  Crea una clase spiderman que tenga como atributos los siguientes campos: 
 
-	nombre, edad, actor que lo interpretó, número de películas en las que apareció, 
-	estudio de cine.
+  nombre, edad, actor que lo interpretó, número de películas en las que apareció, estudio de cine.
 */
+
+const Spiderman = require('./../app/spiderman')
+
 describe("Unit Tests for Spiderman class", () => {
   test('1) Create an spiderman object', () => {
     //Aqui escribimos el código que queremos usar tal cuál 
